@@ -34,7 +34,7 @@ algebraic multiplicity: The multiplicity of an eigenvalue as a root of the chara
 
 ;;;
 
-angle (between nonzero vectors $\mathbf{u}$ and $\mathbf{v}$ in $\mathbb{R}^{2}$ or $\mathbb{R}^{3}$ ): The angle $\vartheta$ between the two directed line segments from the origin to the points $\mathbf{u}$ and $\mathbf{v}$. Related to the scalar product by
+angle (between nonzero vectors $\mathbf{u}$ and $\mathbf{v}$ in $\mathbb{R}^{2}$ or $\mathbb{R}^{3}$): The angle $\vartheta$ between the two directed line segments from the origin to the points $\mathbf{u}$ and $\mathbf{v}$. Related to the scalar product by
 
 $$
 \mathbf{u} \cdot \mathbf{v}=\|\mathbf{u}\|\|\mathbf{v}\| \cos \vartheta
@@ -46,7 +46,7 @@ associative law of multiplication: $\quad A(B C)=(A B) C$, for all $A$, $B, C$.
 
 ;;;
 
-attractor (of a dynamical system in $\mathbb{R}^{2}$ ): The origin when all trajectories tend toward $\mathbf{0}$.
+attractor (of a dynamical system in $\mathbb{R}^{2}$): The origin when all trajectories tend toward $\mathbf{0}$.
 
 ;;;
 
@@ -70,7 +70,7 @@ band matrix: A matrix whose nonzero entries lie within a band along the main dia
 
 ;;;
 
-barycentric coordinates (of a point $\mathbf{p}$ with respect to an affinely independent set $S=\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{k}\right\}$ ): The (unique) set of weights $c_{1}, \ldots, c_{k}$ such that $\mathbf{p}=c_{1} \mathbf{v}\_{1}+\cdots+c_{k} \mathbf{v}\_{k}$ and $c_{1}+$ $\cdots+c_{k}=1$. (Sometimes also called the affine coordinates of $\mathbf{p}$ with respect to $S$.)
+barycentric coordinates (of a point $\mathbf{p}$ with respect to an affinely independent set $S=\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{k}\right\}$): The (unique) set of weights $c_{1}, \ldots, c_{k}$ such that $\mathbf{p}=c_{1} \mathbf{v}\_{1}+\cdots+c_{k} \mathbf{v}\_{k}$ and $c_{1}+$ $\cdots+c_{k}=1$. (Sometimes also called the affine coordinates of $\mathbf{p}$ with respect to $S$.)
 
 ;;;
 
@@ -78,7 +78,7 @@ basic variable: A variable in a linear system that corresponds to a pivot column
 
 ;;;
 
-basis (for a nontrivial subspace $H$ of a vector space $V$ ): An indexed set $\mathcal{B}=\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $V$ such that: (i) $\mathcal{B}$ is a linearly independent set and (ii) the subspace spanned by $\mathcal{B}$ coincides with $H$, that is, $H=\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
+basis (for a nontrivial subspace $H$ of a vector space $V$): An indexed set $\mathcal{B}=\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $V$ such that: (i) $\mathcal{B}$ is a linearly independent set and (ii) the subspace spanned by $\mathcal{B}$ coincides with $H$, that is, $H=\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
 
 ;;;
 
@@ -114,7 +114,7 @@ bounded set in $\mathbb{R}^{n}$ : A set that is contained in an open ball $B(\ma
 
 ;;;
 
-$\mathcal{B}$-matrix (for $T$ ): A matrix $[T]_{\mathcal{B}}$ for a linear transformation $T: V \rightarrow V$ relative to a basis $\mathcal{B}$ for $V$, with the property that $[T(\mathbf{x})]_{\mathcal{B}}=[T]_{\mathcal{B}}[\mathbf{x}]_{\mathcal{B}}$ for all $\mathbf{x}$ in $V$.
+$\mathcal{B}$-matrix (for $T$): A matrix $[T]_{\mathcal{B}}$ for a linear transformation $T: V \rightarrow V$ relative to a basis $\mathcal{B}$ for $V$, with the property that $[T(\mathbf{x})]_{\mathcal{B}}=[T]_{\mathcal{B}}[\mathbf{x}]_{\mathcal{B}}$ for all $\mathbf{x}$ in $V$.
 
 ;;;
 
@@ -122,7 +122,7 @@ Cauchy-Schwarz inequality: $|\langle\mathbf{u}, \mathbf{v}\rangle| \leq\|u\| \cd
 
 ;;;
 
-change-of-coordinates matrix (from a basis $\mathcal{B}$ to a basis $\mathcal{C}$ ): A matrix $\underset{\mathcal{C} \leftarrow \mathcal{B}}{P}$ that transforms $\mathcal{B}$-coordinate vectors into $\mathcal{C}$ coordinate vectors: $[\mathbf{x}]_{\mathcal{C}}={ }\_{\mathcal{C} \leftarrow \mathcal{B}}^{P}[\mathbf{x}]_{\mathcal{B}}$. If $\mathcal{C}$ is the standard basis for $\mathbb{R}^{n}$, then ${ }\_{\mathcal{C} \leftarrow \mathcal{B}}$ is sometimes written as $P_{\mathcal{B}}$.
+change-of-coordinates matrix (from a basis $\mathcal{B}$ to a basis $\mathcal{C}$): A matrix $\underset{\mathcal{C} \leftarrow \mathcal{B}}{P}$ that transforms $\mathcal{B}$-coordinate vectors into $\mathcal{C}$ coordinate vectors: $[\mathbf{x}]_{\mathcal{C}}={ }\_{\mathcal{C} \leftarrow \mathcal{B}}^{P}[\mathbf{x}]_{\mathcal{B}}$. If $\mathcal{C}$ is the standard basis for $\mathbb{R}^{n}$, then ${ }\_{\mathcal{C} \leftarrow \mathcal{B}}$ is sometimes written as $P_{\mathcal{B}}$.
 
 ;;;
 
@@ -138,11 +138,11 @@ Cholesky factorization: A factorization $A=R^{T} R$, where $R$ is an invertible 
 
 ;;;
 
-closed ball (in $\mathbb{R}^{n}$ ): A set $\{\mathbf{x}:\|\mathbf{x}-\mathbf{p}\|<\delta\}$ in $\mathbb{R}^{n}$, where $\mathbf{p}$ is in $\mathbb{R}^{n}$ and $\delta>0$.
+closed ball (in $\mathbb{R}^{n}$): A set $\{\mathbf{x}:\|\mathbf{x}-\mathbf{p}\|<\delta\}$ in $\mathbb{R}^{n}$, where $\mathbf{p}$ is in $\mathbb{R}^{n}$ and $\delta>0$.
 
 ;;;
 
-closed set (in $\mathbb{R}^{n}$ ): A set that contains all of its boundary points. codomain (of a transformation $T: \mathbb{R}^{n} \rightarrow \mathbb{R}^{m}$ ): The set $\mathbb{R}^{m}$ that contains the range of $T$. In general, if $T$ maps a vector space $V$ into a vector space $W$, then $W$ is called the codomain of $T$.
+closed set (in $\mathbb{R}^{n}$): A set that contains all of its boundary points. codomain (of a transformation $T: \mathbb{R}^{n} \rightarrow \mathbb{R}^{m}$): The set $\mathbb{R}^{m}$ that contains the range of $T$. In general, if $T$ maps a vector space $V$ into a vector space $W$, then $W$ is called the codomain of $T$.
 
 ;;;
 
@@ -168,7 +168,7 @@ column-row expansion: The expression of a product $A B$ as a sum of outer produc
 
 ;;;
 
-column space (of an $m \times n$ matrix $A$ ): The set $\operatorname{Col} A$ of all linear combinations of the columns of $A$. If $A=\left[\mathbf{a}\_{1} \cdots \mathbf{a}\_{n}\right]$, then $\operatorname{Col} A=\operatorname{Span}\left\{\mathbf{a}\_{1}, \ldots, \mathbf{a}\_{n}\right\}$. Equivalently,
+column space (of an $m \times n$ matrix $A$): The set $\operatorname{Col} A$ of all linear combinations of the columns of $A$. If $A=\left[\mathbf{a}\_{1} \cdots \mathbf{a}\_{n}\right]$, then $\operatorname{Col} A=\operatorname{Span}\left\{\mathbf{a}\_{1}, \ldots, \mathbf{a}\_{n}\right\}$. Equivalently,
 
 $$
 \operatorname{Col} A=\left\{\mathbf{y}: \mathbf{y}=A \mathbf{x} \text { for some } \mathbf{x} \text { in } \mathbb{R}^{n}\right\}
@@ -184,7 +184,7 @@ commuting matrices: Two matrices $A$ and $B$ such that $A B=B A$.
 
 ;;;
 
-compact set (in $\mathbb{R}^{n}$ ): A set in $\mathbb{R}^{n}$ that is both closed and bounded.
+compact set (in $\mathbb{R}^{n}$): A set in $\mathbb{R}^{n}$ that is both closed and bounded.
 
 ;;;
 
@@ -200,7 +200,7 @@ complex eigenvector: A nonzero vector $\mathbf{x}$ in $\mathbb{C}^{n}$ such that
 
 ;;;
 
-component of $\mathbf{y}$ orthogonal to $\mathbf{u}$ (for $\mathbf{u} \neq \mathbf{0}$ ): The vector $\mathbf{y}-\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}$.
+component of $\mathbf{y}$ orthogonal to $\mathbf{u}$ (for $\mathbf{u} \neq \mathbf{0}$): The vector $\mathbf{y}-\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}$.
 
 ;;;
 
@@ -290,7 +290,7 @@ cube: A three-dimensional solid object bounded by six square faces, with three f
 
 ;;;
 
-decoupled system: A difference equation $\mathbf{y}\_{k+1}=A \mathbf{y}\_{k}$, or a differential equation $\mathbf{y}^{\prime}(t)=A \mathbf{y}(t)$, in which $A$ is a diagonal matrix. The discrete evolution of each entry in $\mathbf{y}\_{k}$ (as a function of $k$ ), or the continuous evolution of each entry in the vector-valued function $\mathbf{y}(t)$, is unaffected by what happens to the other entries as $k \rightarrow \infty$ or $t \rightarrow \infty$.
+decoupled system: A difference equation $\mathbf{y}\_{k+1}=A \mathbf{y}\_{k}$, or a differential equation $\mathbf{y}^{\prime}(t)=A \mathbf{y}(t)$, in which $A$ is a diagonal matrix. The discrete evolution of each entry in $\mathbf{y}\_{k}$ (as a function of $k$), or the continuous evolution of each entry in the vector-valued function $\mathbf{y}(t)$, is unaffected by what happens to the other entries as $k \rightarrow \infty$ or $t \rightarrow \infty$.
 
 ;;;
 
@@ -348,7 +348,7 @@ distributive laws: (left) $A(B+C)=A B+A C$, and (right) $(B+C) A=B A+C A$, for a
 
 ;;;
 
-domain (of a transformation $T$ ): The set of all vectors $\mathbf{x}$ for which $T(\mathbf{x})$ is defined.
+domain (of a transformation $T$): The set of all vectors $\mathbf{x}$ for which $T(\mathbf{x})$ is defined.
 
 ;;;
 
@@ -368,7 +368,7 @@ echelon matrix (or row echelon matrix): A rectangular matrix that has three prop
 
 ;;;
 
-eigenfunctions (of a differential equation $\mathbf{x}^{\prime}(t)=A \mathbf{x}(t)$ ): $\quad \mathrm{A}$ function $\mathbf{x}(t)=\mathbf{v} e^{\lambda t}$, where $\mathbf{v}$ is an eigenvector of $A$ and $\lambda$ is the corresponding eigenvalue.
+eigenfunctions (of a differential equation $\mathbf{x}^{\prime}(t)=A \mathbf{x}(t)$): $\quad \mathrm{A}$ function $\mathbf{x}(t)=\mathbf{v} e^{\lambda t}$, where $\mathbf{v}$ is an eigenvector of $A$ and $\lambda$ is the corresponding eigenvalue.
 
 ;;;
 
@@ -424,11 +424,11 @@ expansion by cofactors: See cofactor expansion.
 
 ;;;
 
-explicit description (of a subspace $W$ of $\mathbb{R}^{n}$ ): A parametric representation of $W$ as the set of all linear combinations of a set of specified vectors.
+explicit description (of a subspace $W$ of $\mathbb{R}^{n}$): A parametric representation of $W$ as the set of all linear combinations of a set of specified vectors.
 
 ;;;
 
-extreme point (of a convex set $S$ ): A point $\mathbf{p}$ in $S$ such that $\mathbf{p}$ is not in the interior of any line segment that lies in $S$. (That is, if $\mathbf{x}, \mathbf{y}$ are in $S$ and $\mathbf{p}$ is on the line segment $\overline{\mathbf{x y}}$, then $\mathbf{p}=\mathbf{x}$ or $\mathbf{p}=\mathbf{y}$.
+extreme point (of a convex set $S$): A point $\mathbf{p}$ in $S$ such that $\mathbf{p}$ is not in the interior of any line segment that lies in $S$. (That is, if $\mathbf{x}, \mathbf{y}$ are in $S$ and $\mathbf{p}$ is on the line segment $\overline{\mathbf{x y}}$, then $\mathbf{p}=\mathbf{x}$ or $\mathbf{p}=\mathbf{y}$.
 
 ;;;
 
@@ -444,7 +444,7 @@ finite-dimensional (vector space): A vector space that is spanned by a finite se
 
 ;;;
 
-flat $\left(\right.$ in $\mathbb{R}^{n}$ ): A translate of a subspace of $\mathbb{R}^{n}$.
+flat $\left(\right.$ in $\mathbb{R}^{n}$): A translate of a subspace of $\mathbb{R}^{n}$.
 
 ;;;
 
@@ -484,7 +484,7 @@ fundamental set of solutions: A basis for the set of all solutions of a homogene
 
 ;;;
 
-fundamental subspaces (determined by $A$ ): The null space and column space of $A$, and the null space and column space of $A^{T}$, with $\operatorname{Col} A^{T}$ commonly called the row space of $A$.
+fundamental subspaces (determined by $A$): The null space and column space of $A$, and the null space and column space of $A^{T}$, with $\operatorname{Col} A^{T}$ commonly called the row space of $A$.
 
 ;;;
 
@@ -504,7 +504,7 @@ Givens rotation: A linear transformation from $\mathbb{R}^{n}$ to $\mathbb{R}^{n
 
 ;;;
 
-Gram matrix (of $A$ ): The matrix $A^{T} A$.
+Gram matrix (of $A$): The matrix $A^{T} A$.
 
 ;;;
 
@@ -528,11 +528,11 @@ Householder reflection: A transformation $\mathbf{x} \mapsto Q \mathbf{x}$, wher
 
 ;;;
 
-hyperplane (in $\mathbb{R}^{n}$ ): A flat in $\mathbb{R}^{n}$ of dimension $n-1$. Also: a translate of a subspace of dimension $n-1$.
+hyperplane (in $\mathbb{R}^{n}$): A flat in $\mathbb{R}^{n}$ of dimension $n-1$. Also: a translate of a subspace of dimension $n-1$.
 
 ;;;
 
-identity matrix (denoted by $I$ or $I_{n}$ ): A square matrix with ones on the diagonal and zeros elsewhere.
+identity matrix (denoted by $I$ or $I_{n}$): A square matrix with ones on the diagonal and zeros elsewhere.
 
 ;;;
 
@@ -540,7 +540,7 @@ ill-conditioned matrix: A square matrix with a large (or possibly infinite) cond
 
 ;;;
 
-image (of a vector $\mathbf{x}$ under a transformation $T$ ): The vector $T(\mathbf{x})$ assigned to $\mathbf{x}$ by $T$. implicit description (of a subspace $W$ of $\mathbb{R}^{n}$ ): A set of one or more homogeneous equations that characterize the points of $W$.
+image (of a vector $\mathbf{x}$ under a transformation $T$): The vector $T(\mathbf{x})$ assigned to $\mathbf{x}$ by $T$. implicit description (of a subspace $W$ of $\mathbb{R}^{n}$): A set of one or more homogeneous equations that characterize the points of $W$.
 
 ;;;
 
@@ -580,7 +580,7 @@ input-output model: See Leontief input-output model.
 
 ;;;
 
-interior point (of a set $S$ in $\mathbb{R}^{n}$ ): A point $\mathbf{p}$ in $S$ such that for some $\delta>0$, the open ball $\mathbf{B}(\mathbf{p}, \delta)$ centered at $\mathbf{p}$ is contained in $S$.
+interior point (of a set $S$ in $\mathbb{R}^{n}$): A point $\mathbf{p}$ in $S$ such that for some $\delta>0$, the open ball $\mathbf{B}(\mathbf{p}, \delta)$ centered at $\mathbf{p}$ is contained in $S$.
 
 ;;;
 
@@ -592,11 +592,11 @@ interpolating polynomial: A polynomial whose graph passes through every point in
 
 ;;;
 
-invariant subspace (for $A$ ): A subspace $H$ such that $A \mathbf{x}$ is in $H$ whenever $\mathbf{x}$ is in $H$.
+invariant subspace (for $A$): A subspace $H$ such that $A \mathbf{x}$ is in $H$ whenever $\mathbf{x}$ is in $H$.
 
 ;;;
 
-inverse (of an $n \times n$ matrix $A$ ): An $n \times n$ matrix $A^{-1}$ such that $A A^{-1}=A^{-1} A=I_{n}$.
+inverse (of an $n \times n$ matrix $A$): An $n \times n$ matrix $A^{-1}$ such that $A A^{-1}=A^{-1} A=I_{n}$.
 
 ;;;
 
@@ -620,7 +620,7 @@ isomorphism: A one-to-one linear mapping from one vector space onto another.
 
 ;;;
 
-kernel (of a linear transformation $T: V \rightarrow W$ ): The set of $\mathbf{x}$ in $V$ such that $T(\mathbf{x})=\mathbf{0}$. 
+kernel (of a linear transformation $T: V \rightarrow W$): The set of $\mathbf{x}$ in $V$ such that $T(\mathbf{x})=\mathbf{0}$. 
 
 ;;;
 
@@ -640,23 +640,23 @@ least-squares line: The line $y=\hat{\beta}\_{0}+\hat{\beta}\_{1} x$ that minimi
 
 ;;;
 
-least-squares solution (of $A \mathbf{x}=\mathbf{b}$ ): A vector $\hat{\mathbf{x}}$ such that $\|\mathbf{b}-A \hat{\mathbf{x}}\| \leq\|\mathbf{b}-A \mathbf{x}\|$ for all $\mathbf{x}$ in $\mathbb{R}^{n}$
+least-squares solution (of $A \mathbf{x}=\mathbf{b}$): A vector $\hat{\mathbf{x}}$ such that $\|\mathbf{b}-A \hat{\mathbf{x}}\| \leq\|\mathbf{b}-A \mathbf{x}\|$ for all $\mathbf{x}$ in $\mathbb{R}^{n}$
 
 ;;;
 
-left inverse (of $A$ ): Any rectangular matrix $C$ such that $C A=I$.
+left inverse (of $A$): Any rectangular matrix $C$ such that $C A=I$.
 
 ;;;
 
-left-multiplication (by $A$ ): Multiplication of a vector or matrix on the left by $A$.
+left-multiplication (by $A$): Multiplication of a vector or matrix on the left by $A$.
 
 ;;;
 
-left singular vectors (of $A$ ): The columns of $U$ in the singular value decomposition $A=U \Sigma V^{T}$.
+left singular vectors (of $A$): The columns of $U$ in the singular value decomposition $A=U \Sigma V^{T}$.
 
 ;;;
 
-length (or norm, of $\mathbf{v}$ ): The scalar $\|\mathbf{v}\|=\sqrt{\mathbf{v} \cdot \mathbf{v}}=\sqrt{\langle\mathbf{v}, \mathbf{v}\rangle}$.
+length (or norm, of $\mathbf{v}$): The scalar $\|\mathbf{v}\|=\sqrt{\mathbf{v} \cdot \mathbf{v}}=\sqrt{\langle\mathbf{v}, \mathbf{v}\rangle}$.
 
 ;;;
 
@@ -680,7 +680,7 @@ linear dependence relation: A homogeneous vector equation where the weights are 
 
 ;;;
 
-linear equation (in the variables $x_{1}, \ldots, x_{n}$ ): An equation that can be written in the form $a_{1} x_{1}+a_{2} x_{2}+\cdots+a_{n} x_{n}=b$, where $b$ and the coefficients $a_{1}, \ldots, a_{n}$ are real or complex numbers.
+linear equation (in the variables $x_{1}, \ldots, x_{n}$): An equation that can be written in the form $a_{1} x_{1}+a_{2} x_{2}+\cdots+a_{n} x_{n}=b$, where $b$ and the coefficients $a_{1}, \ldots, a_{n}$ are real or complex numbers.
 
 ;;;
 
@@ -688,7 +688,7 @@ linear filter: A linear difference equation used to transform discrete-time sign
 
 ;;;
 
-linear functional (on $\mathbb{R}^{n}$ ): A linear transformation $f$ from $\mathbb{R}^{n}$ into $\mathbb{R}$.
+linear functional (on $\mathbb{R}^{n}$): A linear transformation $f$ from $\mathbb{R}^{n}$ into $\mathbb{R}$.
 
 ;;;
 
@@ -708,7 +708,7 @@ linear system: A collection of one or more linear equations involving the same v
 
 ;;;
 
-linear transformation $\boldsymbol{T}$ (from a vector space $V$ into a vector space $W$ ): A rule $T$ that assigns to each vector $\mathbf{x}$ in $V$ a unique vector $T(\mathbf{x})$ in $W$, such that (i) $T(\mathbf{u}+\mathbf{v})=T(\mathbf{u})+T(\mathbf{v})$ for all $\mathbf{u}, \mathbf{v}$ in $V$, and (ii) $T(c \mathbf{u})=c T(\mathbf{u})$ for all $\mathbf{u}$ in $V$ and all scalars $c$. Notation: $T: V \rightarrow W ;$ also, $\mathbf{x} \mapsto A \mathbf{x}$ when $T: \mathbb{R}^{n} \rightarrow \mathbb{R}^{m}$ and $A$ is the standard matrix for $T$.
+linear transformation $\boldsymbol{T}$ (from a vector space $V$ into a vector space $W$): A rule $T$ that assigns to each vector $\mathbf{x}$ in $V$ a unique vector $T(\mathbf{x})$ in $W$, such that (i) $T(\mathbf{u}+\mathbf{v})=T(\mathbf{u})+T(\mathbf{v})$ for all $\mathbf{u}, \mathbf{v}$ in $V$, and (ii) $T(c \mathbf{u})=c T(\mathbf{u})$ for all $\mathbf{u}$ in $V$ and all scalars $c$. Notation: $T: V \rightarrow W ;$ also, $\mathbf{x} \mapsto A \mathbf{x}$ when $T: \mathbb{R}^{n} \rightarrow \mathbb{R}^{m}$ and $A$ is the standard matrix for $T$.
 
 ;;;
 
@@ -724,7 +724,7 @@ lower triangular matrix: A matrix with zeros above the main diagonal.
 
 ;;;
 
-lower triangular part (of $A$ ): A lower triangular matrix whose entries on the main diagonal and below agree with those in $A$.
+lower triangular part (of $A$): A lower triangular matrix whose entries on the main diagonal and below agree with those in $A$.
 
 ;;;
 
@@ -764,7 +764,7 @@ matrix of observations: A $p \times N$ matrix whose columns are observation vect
 
 ;;;
 
-maximal linearly independent set (in $V$ ): A linearly independent set $\mathcal{B}$ in $V$ such that if a vector $\mathbf{v}$ in $V$ but not in $\mathcal{B}$ is added to $\mathcal{B}$, then the new set is linearly dependent.
+maximal linearly independent set (in $V$): A linearly independent set $\mathcal{B}$ in $V$ such that if a vector $\mathbf{v}$ in $V$ but not in $\mathcal{B}$ is added to $\mathcal{B}$, then the new set is linearly dependent.
 
 ;;;
 
@@ -784,7 +784,7 @@ migration matrix: A matrix that gives the percentage movement between different 
 
 ;;;
 
-minimal spanning set (for a subspace $H$ ): A set $\mathcal{B}$ that spans $H$ and has the property that if one of the elements of $\mathcal{B}$ is removed from $\mathcal{B}$, then the new set does not span $H$.
+minimal spanning set (for a subspace $H$): A set $\mathcal{B}$ that spans $H$ and has the property that if one of the elements of $\mathcal{B}$ is removed from $\mathcal{B}$, then the new set does not span $H$.
 
 ;;;
 
@@ -836,7 +836,7 @@ nonzero (matrix or vector): A matrix (with possibly only one row or column) that
 
 ;;;
 
-norm (or length, of $\mathbf{v}$ ): The scalar $\|\mathbf{v}\|=\sqrt{\mathbf{v} \cdot \mathbf{v}}=\sqrt{\langle\mathbf{v}, \mathbf{v}\rangle}$.
+norm (or length, of $\mathbf{v}$): The scalar $\|\mathbf{v}\|=\sqrt{\mathbf{v} \cdot \mathbf{v}}=\sqrt{\langle\mathbf{v}, \mathbf{v}\rangle}$.
 
 ;;;
 
@@ -844,15 +844,15 @@ normal equations: The system of equations represented by $A^{T} A \mathbf{x}=A^{
 
 ;;;
 
-normalizing (a nonzero vector $\mathbf{v}$ ): The process of creating a unit vector $\mathbf{u}$ that is a positive multiple of $\mathbf{v}$.
+normalizing (a nonzero vector $\mathbf{v}$): The process of creating a unit vector $\mathbf{u}$ that is a positive multiple of $\mathbf{v}$.
 
 ;;;
 
-normal vector (to a subspace $V$ of $\mathbb{R}^{n}$ ): A vector $\mathbf{n}$ in $\mathbb{R}^{n}$ such that $\mathbf{n} \cdot \mathbf{x}=0$ for all $\mathbf{x}$ in $V$. 
+normal vector (to a subspace $V$ of $\mathbb{R}^{n}$): A vector $\mathbf{n}$ in $\mathbb{R}^{n}$ such that $\mathbf{n} \cdot \mathbf{x}=0$ for all $\mathbf{x}$ in $V$. 
 
 ;;;
 
-null space ( of an $m \times n$ matrix $A$ ): The set $\operatorname{Nul} A$ of all solutions to the homogeneous equation $A \mathbf{x}=\mathbf{0}$. Nul $A=\{\mathbf{x}: \mathbf{x}$ is in $\mathbb{R}^{n}$ and $\left.A \mathbf{x}=\mathbf{0}\right\}$
+null space ( of an $m \times n$ matrix $A$): The set $\operatorname{Nul} A$ of all solutions to the homogeneous equation $A \mathbf{x}=\mathbf{0}$. Nul $A=\{\mathbf{x}: \mathbf{x}$ is in $\mathbb{R}^{n}$ and $\left.A \mathbf{x}=\mathbf{0}\right\}$
 
 ;;;
 
@@ -884,7 +884,7 @@ orthogonal basis: A basis that is also an orthogonal set.
 
 ;;;
 
-orthogonal complement ( of $W$ ): The set $W^{\perp}$ of all vectors orthogonal to $W$.
+orthogonal complement ( of $W$): The set $W^{\perp}$ of all vectors orthogonal to $W$.
 
 ;;;
 
@@ -900,7 +900,7 @@ orthogonal matrix: A square invertible matrix $U$ such that $U^{-1}=U^{T}$
 
 ;;;
 
-orthogonal projection of $\mathbf{y}$ onto $\mathbf{u}$ (or onto the line through $\mathbf{u}$ and the origin, for $\mathbf{u} \neq \mathbf{0}$ ): The vector $\hat{\mathbf{y}}$ defined by $\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}$. orthogonal projection of y onto $W$ : The unique vector $\hat{\mathbf{y}}$ in $W$ such that $\mathbf{y}-\hat{\mathbf{y}}$ is orthogonal to $W$. Notation: $\hat{\mathbf{y}}=\operatorname{proj}\_{W} \mathbf{y}$.
+orthogonal projection of $\mathbf{y}$ onto $\mathbf{u}$ (or onto the line through $\mathbf{u}$ and the origin, for $\mathbf{u} \neq \mathbf{0}$): The vector $\hat{\mathbf{y}}$ defined by $\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}$. orthogonal projection of y onto $W$ : The unique vector $\hat{\mathbf{y}}$ in $W$ such that $\mathbf{y}-\hat{\mathbf{y}}$ is orthogonal to $W$. Notation: $\hat{\mathbf{y}}=\operatorname{proj}\_{W} \mathbf{y}$.
 
 ;;;
 
@@ -972,7 +972,7 @@ plane through $\mathbf{u}, \mathbf{v}$, and the origin: A set whose parametric e
 
 ;;;
 
-polar decomposition (of $A$ ): A factorization $A=P Q$, where $P$ is an $n \times n$ positive semidefinite matrix with the same rank as $A$, and $Q$ is an $n \times n$ orthogonal matrix.
+polar decomposition (of $A$): A factorization $A=P Q$, where $P$ is an $n \times n$ positive semidefinite matrix with the same rank as $A$, and $Q$ is an $n \times n$ orthogonal matrix.
 
 ;;;
 
@@ -988,7 +988,7 @@ polytope: The convex hull of a finite set of points in $\mathbb{R}^{n}$ (a speci
 
 ;;;
 
-positive combination (of points $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{m}$ in $\mathbb{R}^{n}$ ): A linear combination $c_{1} \mathbf{v}\_{1}+\cdots+c_{m} \mathbf{v}\_{m}$, where all $c_{i} \geq 0$.
+positive combination (of points $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{m}$ in $\mathbb{R}^{n}$): A linear combination $c_{1} \mathbf{v}\_{1}+\cdots+c_{m} \mathbf{v}\_{m}$, where all $c_{i} \geq 0$.
 
 ;;;
 
@@ -1068,11 +1068,11 @@ quadratic form: A function $Q$ defined for $\mathbf{x}$ in $\mathbb{R}^{n}$ by $
 
 ;;;
 
-range (of a linear transformation $T$ ): The set of all vectors of the form $T(\mathbf{x})$ for some $\mathbf{x}$ in the domain of $T$.
+range (of a linear transformation $T$): The set of all vectors of the form $T(\mathbf{x})$ for some $\mathbf{x}$ in the domain of $T$.
 
 ;;;
 
-rank (of a matrix $A$ ): The dimension of the column space of $A$, denoted by $\operatorname{rank} A$.
+rank (of a matrix $A$): The dimension of the column space of $A$, denoted by $\operatorname{rank} A$.
 
 ;;;
 
@@ -1112,11 +1112,11 @@ relative change or relative error (in b): The quantity $\|\Delta \mathbf{b}\| /\
 
 ;;;
 
-repellor (of a dynamical system in $\mathbb{R}^{2}$ ): The origin when all trajectories except the constant zero sequence or function tend away from $\mathbf{0}$.
+repellor (of a dynamical system in $\mathbb{R}^{2}$): The origin when all trajectories except the constant zero sequence or function tend away from $\mathbf{0}$.
 
 ;;;
 
-residual vector: The quantity $\epsilon$ that appears in the general linear model: $\mathbf{y}=X \boldsymbol{\beta}+\boldsymbol{\epsilon}$; that is, $\boldsymbol{\epsilon}=\mathbf{y}-X \boldsymbol{\beta}$, the difference between the observed values and the predicted values (of $y$ ).
+residual vector: The quantity $\epsilon$ that appears in the general linear model: $\mathbf{y}=X \boldsymbol{\beta}+\boldsymbol{\epsilon}$; that is, $\boldsymbol{\epsilon}=\mathbf{y}-X \boldsymbol{\beta}$, the difference between the observed values and the predicted values (of $y$).
 
 ;;;
 
@@ -1124,15 +1124,15 @@ $\operatorname{Re} \mathbf{x}$ : The vector in $\mathbb{R}^{n}$ formed from the 
 
 ;;;
 
-right inverse (of $A$ ): Any rectangular matrix $C$ such that $A C=I$
+right inverse (of $A$): Any rectangular matrix $C$ such that $A C=I$
 
 ;;;
 
-right-multiplication (by $A$ ): Multiplication of a matrix on the right by $A$.
+right-multiplication (by $A$): Multiplication of a matrix on the right by $A$.
 
 ;;;
 
-right singular vectors (of $A$ ): The columns of $V$ in the singular value decomposition $A=U \Sigma V^{T}$.
+right singular vectors (of $A$): The columns of $V$ in the singular value decomposition $A=U \Sigma V^{T}$.
 
 ;;;
 
@@ -1152,7 +1152,7 @@ row reduction algorithm: A systematic method using elementary row operations tha
 
 ;;;
 
-row space (of a matrix $A$ ): The set Row $A$ of all linear combinations of the vectors formed from the rows of $A$; also denoted by $\operatorname{Col} A^{T}$.
+row space (of a matrix $A$): The set Row $A$ of all linear combinations of the vectors formed from the rows of $A$; also denoted by $\operatorname{Col} A^{T}$.
 
 ;;;
 
@@ -1168,11 +1168,11 @@ row-vector rule for computing $\boldsymbol{A} \mathbf{x}$ : The rule for computi
 
 ;;;
 
-saddle point (of a dynamical system in $\mathbb{R}^{2}$ ): The origin when some trajectories are attracted to $\mathbf{0}$ and other trajectories are repelled from $\mathbf{0}$.
+saddle point (of a dynamical system in $\mathbb{R}^{2}$): The origin when some trajectories are attracted to $\mathbf{0}$ and other trajectories are repelled from $\mathbf{0}$.
 
 ;;;
 
-same direction (as a vector $\mathbf{v}$ ): A vector that is a positive multiple of $\mathbf{v}$.
+same direction (as a vector $\mathbf{v}$): A vector that is a positive multiple of $\mathbf{v}$.
 
 ;;;
 
@@ -1224,11 +1224,11 @@ singular (matrix): A square matrix that has no inverse.
 
 ;;;
 
-singular value decomposition (of an $m \times n$ matrix $A$): $A=$ $U \Sigma V^{T}$, where $U$ is an $m \times m$ orthogonal matrix, $V$ is an $n \times n$ orthogonal matrix, and $\Sigma$ is an $m \times n$ matrix with nonnegative entries on the main diagonal (arranged in decreasing order of magnitude) and zeros elsewhere. If $\operatorname{rank} A=r$, then $\Sigma$ has exactly $r$ positive entries (the nonzero singular values of $A$ ) on the diagonal.
+singular value decomposition (of an $m \times n$ matrix $A$): $A=$ $U \Sigma V^{T}$, where $U$ is an $m \times m$ orthogonal matrix, $V$ is an $n \times n$ orthogonal matrix, and $\Sigma$ is an $m \times n$ matrix with nonnegative entries on the main diagonal (arranged in decreasing order of magnitude) and zeros elsewhere. If $\operatorname{rank} A=r$, then $\Sigma$ has exactly $r$ positive entries (the nonzero singular values of $A$) on the diagonal.
 
 ;;;
 
-singular values (of $A$ ): The (positive) square roots of the eigenvalues of $A^{T} A$, arranged in decreasing order of magnitude.
+singular values (of $A$): The (positive) square roots of the eigenvalues of $A^{T} A$, arranged in decreasing order of magnitude.
 
 ;;;
 
@@ -1236,7 +1236,7 @@ size (of a matrix): Two numbers, written in the form $m \times n$, that specify 
 
 ;;;
 
-solution (of a linear system involving variables $x_{1}, \ldots, x_{n}$ ): A list $\left(s_{1}, s_{2}, \ldots, s_{n}\right)$ of numbers that makes each equation in the system a true statement when the values $s_{1}, \ldots, s_{n}$ are substituted for $x_{1}, \ldots, x_{n}$, respectively.
+solution (of a linear system involving variables $x_{1}, \ldots, x_{n}$): A list $\left(s_{1}, s_{2}, \ldots, s_{n}\right)$ of numbers that makes each equation in the system a true statement when the values $s_{1}, \ldots, s_{n}$ are substituted for $x_{1}, \ldots, x_{n}$, respectively.
 
 ;;;
 
@@ -1248,11 +1248,11 @@ $\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{\boldsymbol{p}}
 
 ;;;
 
-spanning set (for a subspace $H$ ): Any set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $H$ such that $H=\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
+spanning set (for a subspace $H$): Any set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $H$ such that $H=\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
 
 ;;;
 
-spectral decomposition (of $A$ ): A representation
+spectral decomposition (of $A$): A representation
 
 $$
 A=\lambda_{1} \mathbf{u}\_{1} \mathbf{u}\_{1}^{T}+\cdots+\lambda_{n} \mathbf{u}\_{n} \mathbf{u}\_{n}^{T}
@@ -1262,7 +1262,7 @@ where $\left\{\mathbf{u}\_{1}, \ldots, \mathbf{u}\_{n}\right\}$ is an orthonorma
 
 ;;;
 
-spiral point (of a dynamical system in $\mathbb{R}^{2}$ ): The origin when the trajectories spiral about $\mathbf{0}$.
+spiral point (of a dynamical system in $\mathbb{R}^{2}$): The origin when the trajectories spiral about $\mathbf{0}$.
 
 ;;;
 
@@ -1274,7 +1274,7 @@ standard basis: The basis $\mathcal{E}=\left\{\mathbf{e}\_{1}, \ldots, \mathbf{e
 
 ;;;
 
-standard matrix (for a linear transformation $T$ ): The matrix $A$ such that $T(\mathbf{x})=A \mathbf{x}$ for all $\mathbf{x}$ in the domain of $T$.
+standard matrix (for a linear transformation $T$): The matrix $A$ such that $T(\mathbf{x})=A \mathbf{x}$ for all $\mathbf{x}$ in the domain of $T$.
 
 ;;;
 
@@ -1286,7 +1286,7 @@ state vector: A probability vector. In general, a vector that describes the "sta
 
 ;;;
 
-steady-state vector (for a stochastic matrix $P$ ): A probability vector $\mathbf{q}$ such that $P \mathbf{q}=\mathbf{q}$.
+steady-state vector (for a stochastic matrix $P$): A probability vector $\mathbf{q}$ such that $P \mathbf{q}=\mathbf{q}$.
 
 ;;;
 
@@ -1296,7 +1296,7 @@ stiffness matrix: The inverse of a flexibility matrix. The $j$ th column of a st
 
 stochastic matrix: A square matrix whose columns are probability vectors.
 
-strictly dominant eigenvalue: An eigenvalue $\lambda_{1}$ of a matrix $A$ with the property that $\left|\lambda_{1}\right|>\left|\lambda_{k}\right|$ for all other eigenvalues $\lambda_{k}$ of $A$. submatrix (of $A$ ): Any matrix obtained by deleting some rows and/or columns of $A$; also, $A$ itself.
+strictly dominant eigenvalue: An eigenvalue $\lambda_{1}$ of a matrix $A$ with the property that $\left|\lambda_{1}\right|>\left|\lambda_{k}\right|$ for all other eigenvalues $\lambda_{k}$ of $A$. submatrix (of $A$): Any matrix obtained by deleting some rows and/or columns of $A$; also, $A$ itself.
 
 ;;;
 
@@ -1304,7 +1304,7 @@ subspace: A subset $H$ of some vector space $V$ such that $H$ has these properti
 
 ;;;
 
-supporting hyperplane (to a compact convex set $S$ in $\mathbb{R}^{n}$ ): A hyperplane $H=[f: d]$ such that $H \cap S \neq \varnothing$ and either $f(x) \leq d$ for all $x$ in $S$ or $f(x) \geq d$ for all $x$ in $S$.
+supporting hyperplane (to a compact convex set $S$ in $\mathbb{R}^{n}$): A hyperplane $H=[f: d]$ such that $H \cap S \neq \varnothing$ and either $f(x) \leq d$ for all $x$ in $S$ or $f(x) \geq d$ for all $x$ in $S$.
 
 ;;;
 
@@ -1324,7 +1324,7 @@ total variance: The trace of the covariance matrix $S$ of a matrix of observatio
 
 ;;;
 
-trace (of a square matrix $A$ ): The sum of the diagonal entries in $A$, denoted by $\operatorname{tr} A$.
+trace (of a square matrix $A$): The sum of the diagonal entries in $A$, denoted by $\operatorname{tr} A$.
 
 ;;;
 
@@ -1340,11 +1340,11 @@ transformation (or function, or mapping) $T$ from $\mathbb{R}^{n}$ to $\mathbb{R
 
 ;;;
 
-translation (by a vector $\mathbf{p}$ ): The operation of adding $\mathbf{p}$ to a vector or to each vector in a given set.
+translation (by a vector $\mathbf{p}$): The operation of adding $\mathbf{p}$ to a vector or to each vector in a given set.
 
 ;;;
 
-transpose (of $A$ ): An $n \times m$ matrix $A^{T}$ whose columns are the corresponding rows of the $m \times n$ matrix $A$.
+transpose (of $A$): An $n \times m$ matrix $A^{T}$ whose columns are the corresponding rows of the $m \times n$ matrix $A$.
 
 ;;;
 
@@ -1368,7 +1368,7 @@ trivial solution: The solution $\mathbf{x}=\mathbf{0}$ of a homogeneous equation
 
 ;;;
 
-uncorrelated variables: Any two variables $x_{i}$ and $x_{j}$ (with $i \neq j$ ) that range over the $i$ th and $j$ th coordinates of the observation vectors in an observation matrix, such that the covariance $s_{i j}$ is zero.
+uncorrelated variables: Any two variables $x_{i}$ and $x_{j}$ (with $i \neq j$) that range over the $i$ th and $j$ th coordinates of the observation vectors in an observation matrix, such that the covariance $s_{i j}$ is zero.
 
 ;;;
 
