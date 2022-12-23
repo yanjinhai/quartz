@@ -114,7 +114,7 @@ bounded set in $\mathbb{R}^{n}$ : A set that is contained in an open ball $B(\ma
 
 ;;;
 
-$\mathcal{B}$-matrix (for $T$): A matrix $[T]_{\mathcal{B}}$ for a linear transformation $T: V \rightarrow V$ relative to a basis $\mathcal{B}$ for $V$, with the property that $[T(\mathbf{x})]_{\mathcal{B}}=[T]_{\mathcal{B}}[\mathbf{x}]_{\mathcal{B}}$ for all $\mathbf{x}$ in $V$.
+$\mathcal{B}$-matrix (for $T$): A matrix $[T]\_{\mathcal{B}}$ for a linear transformation $T: V \rightarrow V$ relative to a basis $\mathcal{B}$ for $V$, with the property that $[T(\mathbf{x})]\_{\mathcal{B}}=[T]\_{\mathcal{B}}[\mathbf{x}]\_{\mathcal{B}}$ for all $\mathbf{x}$ in $V$.
 
 ;;;
 
@@ -122,7 +122,7 @@ Cauchy-Schwarz inequality: $|\langle\mathbf{u}, \mathbf{v}\rangle| \leq\|u\| \cd
 
 ;;;
 
-change-of-coordinates matrix (from a basis $\mathcal{B}$ to a basis $\mathcal{C}$): A matrix $\underset{\mathcal{C} \leftarrow \mathcal{B}}{P}$ that transforms $\mathcal{B}$-coordinate vectors into $\mathcal{C}$ coordinate vectors: $[\mathbf{x}]_{\mathcal{C}}={ }\_{\mathcal{C} \leftarrow \mathcal{B}}^{P}[\mathbf{x}]_{\mathcal{B}}$. If $\mathcal{C}$ is the standard basis for $\mathbb{R}^{n}$, then ${ }\_{\mathcal{C} \leftarrow \mathcal{B}}$ is sometimes written as $P_{\mathcal{B}}$.
+change-of-coordinates matrix (from a basis $\mathcal{B}$ to a basis $\mathcal{C}$): A matrix $\underset{\mathcal{C} \leftarrow \mathcal{B}}{P}$ that transforms $\mathcal{B}$-coordinate vectors into $\mathcal{C}$ coordinate vectors: $[\mathbf{x}]\_{\mathcal{C}}={ }\_{\mathcal{C} \leftarrow \mathcal{B}}^{P}[\mathbf{x}]\_{\mathcal{B}}$. If $\mathcal{C}$ is the standard basis for $\mathbb{R}^{n}$, then ${ }\_{\mathcal{C} \leftarrow \mathcal{B}}$ is sometimes written as $P_{\mathcal{B}}$.
 
 ;;;
 
@@ -155,8 +155,6 @@ cofactor: A number $C_{i j}=(-1)^{i+j} \operatorname{det} A_{i j}$, called the $
 ;;;
 
 cofactor expansion: A formula for $\operatorname{det} A$ using cofactors associated with one row or one column, such as for row 1:
-
-;;;
 
 $$
 \operatorname{det} A=a_{11} C_{11}+\cdots+a_{1 n} C_{1 n}
@@ -258,7 +256,7 @@ convex hull (of a set $S$): The set of all convex combinations of points in $S$,
 
 ;;;
 
-coordinate mapping (determined by an ordered basis $\mathcal{B}$ in a vector space $V$): A mapping that associates to each $\mathbf{x}$ in $V$ its coordinate vector $[\mathbf{x}]_{\mathcal{B}}$.
+coordinate mapping (determined by an ordered basis $\mathcal{B}$ in a vector space $V$): A mapping that associates to each $\mathbf{x}$ in $V$ its coordinate vector $[\mathbf{x}]\_{\mathcal{B}}$.
 
 ;;;
 
@@ -266,7 +264,7 @@ coordinates of $x$ relative to the basis $\mathcal{B}=\left\{\mathbf{b}\_{1}, \l
 
 ;;;
 
-coordinate vector of $\mathbf{x}$ relative to $\mathcal{B}$ : The vector $[\mathbf{x}]_{\mathcal{B}}$ whose entries are the coordinates of $\mathbf{x}$ relative to the basis $\mathcal{B}$.
+coordinate vector of $\mathbf{x}$ relative to $\mathcal{B}$ : The vector $[\mathbf{x}]\_{\mathcal{B}}$ whose entries are the coordinates of $\mathbf{x}$ relative to the basis $\mathcal{B}$.
 
 ;;;
 
@@ -326,9 +324,11 @@ dimension:
 
 of a flat $S$ : The dimension of the corresponding parallel subspace.
 
-of a set $S$ : The dimension of the smallest flat containing $S$. of a subspace $S$ : The number of vectors in a basis for $S$, written as $\operatorname{dim} S$.
+of a set $S$ : The dimension of the smallest flat containing $S$.
 
-of a vector space $V$ : The number of vectors in a basis for $V$, written as $\operatorname{dim} V$. The dimension of the zero space is 0 .
+of a subspace $S$ : The number of vectors in a basis for $S$, written as $\operatorname{dim} S$.
+
+of a vector space $V$ : The number of vectors in a basis for $V$, written as $\operatorname{dim} V$. The dimension of the zero space is 0.
 
 ;;;
 
@@ -756,7 +756,7 @@ matrix equation: An equation that involves at least one matrix; for instance, $A
 
 ;;;
 
-matrix for $T$ relative to bases $\mathcal{B}$ and $\mathcal{C}$ : A matrix $M$ for a linear transformation $T: V \rightarrow W$ with the property that $[T(\mathbf{x})]_{\mathcal{C}}=M[\mathbf{x}]_{\mathcal{B}}$ for all $\mathbf{x}$ in $V$, where $\mathcal{B}$ is a basis for $V$ and $\mathcal{C}$ is a basis for $W$. When $W=V$ and $\mathcal{C}=\mathcal{B}$, the matrix $M$ is called the $\mathcal{B}$-matrix for $T$ and is denoted by $[T]_{\mathcal{B}}$.
+matrix for $T$ relative to bases $\mathcal{B}$ and $\mathcal{C}$ : A matrix $M$ for a linear transformation $T: V \rightarrow W$ with the property that $[T(\mathbf{x})]\_{\mathcal{C}}=M[\mathbf{x}]\_{\mathcal{B}}$ for all $\mathbf{x}$ in $V$, where $\mathcal{B}$ is a basis for $V$ and $\mathcal{C}$ is a basis for $W$. When $W=V$ and $\mathcal{C}=\mathcal{B}$, the matrix $M$ is called the $\mathcal{B}$-matrix for $T$ and is denoted by $[T]\_{\mathcal{B}}$.
 
 ;;;
 
