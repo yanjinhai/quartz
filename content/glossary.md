@@ -1,6 +1,6 @@
 adjugate (or classical adjoint): The matrix adj $A$ formed from a square matrix $A$ by replacing the $(i, j)$-entry of $A$ by the $(i, j)$-cofactor, for all $i$ and $j$, and then transposing the resulting matrix.
 
-affine combination: A linear combination of vectors (points in $\mathbb{R}^{n}$ ) in which the sum of the weights involved is 1 .
+affine combination: A linear combination of vectors (points in $\mathbb{R}^{n}$) in which the sum of the weights involved is 1 .
 
 affine dependence relation: An equation of the form $c_{1} \mathbf{v}_{1} + $ $\cdots+c_{p} \mathbf{v}_{p}=\mathbf{0}$, where the weights $c_{1}, \ldots, c_{p}$ are not all zero, and $c_{1}+\cdots+c_{p}=0$.
 
