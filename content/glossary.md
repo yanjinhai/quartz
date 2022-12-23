@@ -6,7 +6,7 @@ affine dependence relation: An equation of the form $c_{1} \mathbf{v}\_{1}+$ $\c
 
 affine hull (or affine span) of a set $S$ : The set of all affine combinations of points in $S$, denoted by aff $S$.
 
-affinely dependent set: A set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $\mathbb{R}^{n}$ such that there are real numbers $c_{1}, \ldots, c_{p}$, not all zero, such that $c_{1}+\cdots+$ $c_{p}=0$ and $c_{1} \mathbf{v}\_{1}+\cdots+c_{p} \mathbf{v}\_{p}=\mathbf{0}$.
+affinely dependent set: A set $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}$ in $\mathbb{R}^{n}$ such that there are real numbers $c_{1}, \ldots, c_{p}$, not all zero, such that $c_{1}+\cdots+$ $c_{p}=0$ and $c_{1} \mathbf{v}\_{1}+\cdots+c_{p} \mathbf{v}\_{p}=\mathbf{0}$.
 
 affinely independent set: A set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $\mathbb{R}^{n}$ that is not affinely dependent.
 
