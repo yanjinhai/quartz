@@ -6,9 +6,9 @@ affine dependence relation: An equation of the form $c_{1} \mathbf{v}\_{1}+$ $\c
 
 affine hull (or affine span) of a set $S$ : The set of all affine combinations of points in $S$, denoted by aff $S$.
 
-affinely dependent set: A set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ in $\mathbb{R}^{n}$ such that there are real numbers $c_{1}, \ldots, c_{p}$, not all zero, such that $c_{1}+\cdots+$ $c_{p}=0$ and $c_{1} \mathbf{v}_{1}+\cdots+c_{p} \mathbf{v}_{p}=\mathbf{0}$.
+affinely dependent set: A set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $\mathbb{R}^{n}$ such that there are real numbers $c_{1}, \ldots, c_{p}$, not all zero, such that $c_{1}+\cdots+$ $c_{p}=0$ and $c_{1} \mathbf{v}\_{1}+\cdots+c_{p} \mathbf{v}\_{p}=\mathbf{0}$.
 
-affinely independent set: A set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ in $\mathbb{R}^{n}$ that is not affinely dependent.
+affinely independent set: A set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $\mathbb{R}^{n}$ that is not affinely dependent.
 
 affine set (or affine subset): A set $S$ of points such that if $\mathbf{p}$ and $\mathbf{q}$ are in $S$, then $(1-t) \mathbf{p}+t \mathbf{q} \in S$ for each real number $t$.
 
@@ -36,11 +36,11 @@ backward phase (of row reduction): The last part of the algorithm that reduces a
 
 band matrix: A matrix whose nonzero entries lie within a band along the main diagonal.
 
-barycentric coordinates (of a point $\mathbf{p}$ with respect to an affinely independent set $S=\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{k}\right\}$ ): The (unique) set of weights $c_{1}, \ldots, c_{k}$ such that $\mathbf{p}=c_{1} \mathbf{v}_{1}+\cdots+c_{k} \mathbf{v}_{k}$ and $c_{1}+$ $\cdots+c_{k}=1$. (Sometimes also called the affine coordinates of $\mathbf{p}$ with respect to $S$.)
+barycentric coordinates (of a point $\mathbf{p}$ with respect to an affinely independent set $S=\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{k}\right\}$ ): The (unique) set of weights $c_{1}, \ldots, c_{k}$ such that $\mathbf{p}=c_{1} \mathbf{v}\_{1}+\cdots+c_{k} \mathbf{v}\_{k}$ and $c_{1}+$ $\cdots+c_{k}=1$. (Sometimes also called the affine coordinates of $\mathbf{p}$ with respect to $S$.)
 
 basic variable: A variable in a linear system that corresponds to a pivot column in the coefficient matrix.
 
-basis (for a nontrivial subspace $H$ of a vector space $V$ ): An indexed set $\mathcal{B}=\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ in $V$ such that: (i) $\mathcal{B}$ is a linearly independent set and (ii) the subspace spanned by $\mathcal{B}$ coincides with $H$, that is, $H=\operatorname{Span}\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$.
+basis (for a nontrivial subspace $H$ of a vector space $V$ ): An indexed set $\mathcal{B}=\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $V$ such that: (i) $\mathcal{B}$ is a linearly independent set and (ii) the subspace spanned by $\mathcal{B}$ coincides with $H$, that is, $H=\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
 
 $\mathcal{B}$-coordinates of $\mathbf{x}$ : See coordinates of $\mathbf{x}$ relative to the basis $\mathcal{B}$.
 
@@ -62,7 +62,7 @@ $\mathcal{B}$-matrix (for $T$ ): A matrix $[T]_{\mathcal{B}}$ for a linear trans
 
 Cauchy-Schwarz inequality: $|\langle\mathbf{u}, \mathbf{v}\rangle| \leq\|u\| \cdot\|v\|$ for all u, $\mathbf{v}$. change of basis: See change-of-coordinates matrix.
 
-change-of-coordinates matrix (from a basis $\mathcal{B}$ to a basis $\mathcal{C}$ ): A matrix $\underset{\mathcal{C} \leftarrow \mathcal{B}}{P}$ that transforms $\mathcal{B}$-coordinate vectors into $\mathcal{C}$ coordinate vectors: $[\mathbf{x}]_{\mathcal{C}}={ }_{\mathcal{C} \leftarrow \mathcal{B}}^{P}[\mathbf{x}]_{\mathcal{B}}$. If $\mathcal{C}$ is the standard basis for $\mathbb{R}^{n}$, then ${ }_{\mathcal{C} \leftarrow \mathcal{B}}$ is sometimes written as $P_{\mathcal{B}}$.
+change-of-coordinates matrix (from a basis $\mathcal{B}$ to a basis $\mathcal{C}$ ): A matrix $\underset{\mathcal{C} \leftarrow \mathcal{B}}{P}$ that transforms $\mathcal{B}$-coordinate vectors into $\mathcal{C}$ coordinate vectors: $[\mathbf{x}]_{\mathcal{C}}={ }\_{\mathcal{C} \leftarrow \mathcal{B}}^{P}[\mathbf{x}]_{\mathcal{B}}$. If $\mathcal{C}$ is the standard basis for $\mathbb{R}^{n}$, then ${ }\_{\mathcal{C} \leftarrow \mathcal{B}}$ is sometimes written as $P_{\mathcal{B}}$.
 
 characteristic equation (of $A$ ): $\quad \operatorname{det}(A-\lambda I)=0$.
 
@@ -84,9 +84,9 @@ $$
 \operatorname{det} A=a_{11} C_{11}+\cdots+a_{1 n} C_{1 n}
 $$
 
-column-row expansion: The expression of a product $A B$ as a sum of outer products: $\operatorname{col}_{1}(A) \operatorname{row}_{1}(B)+\cdots+$ $\operatorname{col}_{n}(A)$ row $_{n}(B)$, where $n$ is the number of columns of $A$.
+column-row expansion: The expression of a product $A B$ as a sum of outer products: $\operatorname{col}\_{1}(A) \operatorname{row}\_{1}(B)+\cdots+$ $\operatorname{col}\_{n}(A)$ row $_{n}(B)$, where $n$ is the number of columns of $A$.
 
-column space (of an $m \times n$ matrix $A$ ): The set $\operatorname{Col} A$ of all linear combinations of the columns of $A$. If $A=\left[\mathbf{a}_{1} \cdots \mathbf{a}_{n}\right]$, then $\operatorname{Col} A=\operatorname{Span}\left\{\mathbf{a}_{1}, \ldots, \mathbf{a}_{n}\right\}$. Equivalently,
+column space (of an $m \times n$ matrix $A$ ): The set $\operatorname{Col} A$ of all linear combinations of the columns of $A$. If $A=\left[\mathbf{a}\_{1} \cdots \mathbf{a}\_{n}\right]$, then $\operatorname{Col} A=\operatorname{Span}\left\{\mathbf{a}\_{1}, \ldots, \mathbf{a}\_{n}\right\}$. Equivalently,
 
 $$
 \operatorname{Col} A=\left\{\mathbf{y}: \mathbf{y}=A \mathbf{x} \text { for some } \mathbf{x} \text { in } \mathbb{R}^{n}\right\}
@@ -128,17 +128,17 @@ B & A B & A^{2} B & \cdots & A^{n-1} B
 \end{array}\right]=n
 $$
 
-Related to a state-space model of a control system and the difference equation $\mathbf{x}_{k+1}=A \mathbf{x}_{k}+B \mathbf{u}_{k}(k=0,1, \ldots)$.
+Related to a state-space model of a control system and the difference equation $\mathbf{x}\_{k+1}=A \mathbf{x}\_{k}+B \mathbf{u}\_{k}(k=0,1, \ldots)$.
 
-convergent (sequence of vectors): A sequence $\left\{\mathbf{x}_{k}\right\}$ such that the entries in $\mathbf{x}_{k}$ can be made as close as desired to the entries in some fixed vector for all $k$ sufficiently large.
+convergent (sequence of vectors): A sequence $\left\{\mathbf{x}\_{k}\right\}$ such that the entries in $\mathbf{x}\_{k}$ can be made as close as desired to the entries in some fixed vector for all $k$ sufficiently large.
 
-convex combination (of points $\mathbf{v}_{1}, \ldots, \mathbf{v}_{k}$ in $\mathbb{R}^{n}$ ): A linear combination of vectors (points) in which the weights in the combination are nonnegative and the sum of the weights is 1.
+convex combination (of points $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{k}$ in $\mathbb{R}^{n}$ ): A linear combination of vectors (points) in which the weights in the combination are nonnegative and the sum of the weights is 1.
 
 convex hull (of a set $S$ ): The set of all convex combinations of points in $S$, denoted by: conv $S$. convex set: A set $S$ with the property that for each $\mathbf{p}$ and $\mathbf{q}$ in $S$, the line segment $\overline{\mathbf{p q}}$ is contained in $S$.
 
 coordinate mapping (determined by an ordered basis $\mathcal{B}$ in a vector space $V$ ): A mapping that associates to each $\mathbf{x}$ in $V$ its coordinate vector $[\mathbf{x}]_{\mathcal{B}}$.
 
-coordinates of $x$ relative to the basis $\mathcal{B}=\left\{\mathbf{b}_{1}, \ldots, \mathbf{b}_{\boldsymbol{n}}\right\}$ : The weights $c_{1}, \ldots, c_{n}$ in the equation $\mathbf{x}=c_{1} \mathbf{b}_{1}+\cdots+c_{n} \mathbf{b}_{n}$.
+coordinates of $x$ relative to the basis $\mathcal{B}=\left\{\mathbf{b}\_{1}, \ldots, \mathbf{b}\_{\boldsymbol{n}}\right\}$ : The weights $c_{1}, \ldots, c_{n}$ in the equation $\mathbf{x}=c_{1} \mathbf{b}\_{1}+\cdots+c_{n} \mathbf{b}\_{n}$.
 
 coordinate vector of $\mathbf{x}$ relative to $\mathcal{B}$ : The vector $[\mathbf{x}]_{\mathcal{B}}$ whose entries are the coordinates of $\mathbf{x}$ relative to the basis $\mathcal{B}$.
 
@@ -152,7 +152,7 @@ cross-product term: A term $c x_{i} x_{j}$ in a quadratic form, with $i \neq j$.
 
 cube: A three-dimensional solid object bounded by six square faces, with three faces meeting at each vertex.
 
-decoupled system: A difference equation $\mathbf{y}_{k+1}=A \mathbf{y}_{k}$, or a differential equation $\mathbf{y}^{\prime}(t)=A \mathbf{y}(t)$, in which $A$ is a diagonal matrix. The discrete evolution of each entry in $\mathbf{y}_{k}$ (as a function of $k$ ), or the continuous evolution of each entry in the vector-valued function $\mathbf{y}(t)$, is unaffected by what happens to the other entries as $k \rightarrow \infty$ or $t \rightarrow \infty$.
+decoupled system: A difference equation $\mathbf{y}\_{k+1}=A \mathbf{y}\_{k}$, or a differential equation $\mathbf{y}^{\prime}(t)=A \mathbf{y}(t)$, in which $A$ is a diagonal matrix. The discrete evolution of each entry in $\mathbf{y}\_{k}$ (as a function of $k$ ), or the continuous evolution of each entry in the vector-valued function $\mathbf{y}(t)$, is unaffected by what happens to the other entries as $k \rightarrow \infty$ or $t \rightarrow \infty$.
 
 design matrix: The matrix $X$ in the linear model $\mathbf{y}=\mathbf{X} \boldsymbol{\beta}+\boldsymbol{\epsilon}$, where the columns of $X$ are determined in some way by the observed values of some independent variables.
 
@@ -164,7 +164,7 @@ diagonalizable (matrix): A matrix that can be written in factored form as $P D P
 
 diagonal matrix: A square matrix whose entries not on the main diagonal are all zero.
 
-difference equation (or linear recurrence relation): An equation of the form $\mathbf{x}_{k+1}=A \mathbf{x}_{k}(k=0,1,2, \ldots)$ whose solution is a sequence of vectors, $\mathbf{x}_{0}, \mathbf{x}_{1}, \ldots$
+difference equation (or linear recurrence relation): An equation of the form $\mathbf{x}\_{k+1}=A \mathbf{x}\_{k}(k=0,1,2, \ldots)$ whose solution is a sequence of vectors, $\mathbf{x}\_{0}, \mathbf{x}\_{1}, \ldots$
 
 dilation: A mapping $\mathbf{x} \mapsto r \mathbf{x}$ for some scalar $r$, with $1<r$. dimension:
 
@@ -174,7 +174,7 @@ of a set $S$ : The dimension of the smallest flat containing $S$. of a subspace 
 
 of a vector space $V$ : The number of vectors in a basis for $V$, written as $\operatorname{dim} V$. The dimension of the zero space is 0 .
 
-discrete linear dynamical system: A difference equation of the form $\mathbf{x}_{k+1}=A \mathbf{x}_{k}$ that describes the changes in a system (usually a physical system) as time passes. The physical system is measured at discrete times, when $k=0,1,2, \ldots$, and the state of the system at time $k$ is a vector $\mathbf{x}_{k}$ whose entries provide certain facts of interest about the system.
+discrete linear dynamical system: A difference equation of the form $\mathbf{x}\_{k+1}=A \mathbf{x}\_{k}$ that describes the changes in a system (usually a physical system) as time passes. The physical system is measured at discrete times, when $k=0,1,2, \ldots$, and the state of the system at time $k$ is a vector $\mathbf{x}\_{k}$ whose entries provide certain facts of interest about the system.
 
 distance between $\mathbf{u}$ and $\mathbf{v}$ : The length of the vector $\mathbf{u}-\mathbf{v}$, denoted by dist $(\mathbf{u}, \mathbf{v})$.
 
@@ -202,7 +202,7 @@ eigenvector (of $A$ ): A nonzero vector $\mathbf{x}$ such that $A \mathbf{x}=\la
 
 eigenvector basis: A basis consisting entirely of eigenvectors of a given matrix.
 
-eigenvector decomposition (of $\mathbf{x}$ ): An equation, $\mathbf{x}=c_{1} \mathbf{v}_{1}+$ $\cdots+c_{n} \mathbf{v}_{n}$, expressing $\mathbf{x}$ as a linear combination of eigenvectors of a matrix.
+eigenvector decomposition (of $\mathbf{x}$ ): An equation, $\mathbf{x}=c_{1} \mathbf{v}\_{1}+$ $\cdots+c_{n} \mathbf{v}\_{n}$, expressing $\mathbf{x}$ as a linear combination of eigenvectors of a matrix.
 
 elementary matrix: An invertible matrix that results by performing one elementary row operation on an identity matrix.
 
@@ -326,7 +326,7 @@ ladder network: An electrical network assembled by connecting in series two or m
 
 leading entry: The leftmost nonzero entry in a row of a matrix. least-squares error: The distance $\|\mathbf{b}-A \hat{\mathbf{x}}\|$ from $\mathbf{b}$ to $A \hat{\mathbf{x}}$, when $\hat{\mathbf{x}}$ is a least-squares solution of $A \mathbf{x}=\mathbf{b}$.
 
-least-squares line: The line $y=\hat{\beta}_{0}+\hat{\beta}_{1} x$ that minimizes the least-squares error in the equation $\mathbf{y}=X \boldsymbol{\beta}+\boldsymbol{\epsilon}$.
+least-squares line: The line $y=\hat{\beta}\_{0}+\hat{\beta}\_{1} x$ that minimizes the least-squares error in the equation $\mathbf{y}=X \boldsymbol{\beta}+\boldsymbol{\epsilon}$.
 
 least-squares solution (of $A \mathbf{x}=\mathbf{b}$ ): A vector $\hat{\mathbf{x}}$ such that $\|\mathbf{b}-A \hat{\mathbf{x}}\| \leq\|\mathbf{b}-A \mathbf{x}\|$ for all $\mathbf{x}$ in $\mathbb{R}^{n}$
 
@@ -354,9 +354,9 @@ linear filter: A linear difference equation used to transform discrete-time sign
 
 linear functional (on $\mathbb{R}^{n}$ ): A linear transformation $f$ from $\mathbb{R}^{n}$ into $\mathbb{R}$.
 
-linearly dependent (vectors): An indexed set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ with the property that there exist weights $c_{1}, \ldots, c_{p}$, not all zero, such that $c_{1} \mathbf{v}_{1}+\cdots+c_{p} \mathbf{v}_{p}=\mathbf{0}$. That is, the vector equation $c_{1} \mathbf{v}_{1}+c_{2} \mathbf{v}_{2}+\cdots+c_{p} \mathbf{v}_{p}=\mathbf{0}$ has a nontrivial solution.
+linearly dependent (vectors): An indexed set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ with the property that there exist weights $c_{1}, \ldots, c_{p}$, not all zero, such that $c_{1} \mathbf{v}\_{1}+\cdots+c_{p} \mathbf{v}\_{p}=\mathbf{0}$. That is, the vector equation $c_{1} \mathbf{v}\_{1}+c_{2} \mathbf{v}\_{2}+\cdots+c_{p} \mathbf{v}\_{p}=\mathbf{0}$ has a nontrivial solution.
 
-linearly independent (vectors): An indexed set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ with the property that the vector equation $c_{1} \mathbf{v}_{1}+$ $c_{2} \mathbf{v}_{2}+\cdots+c_{p} \mathbf{v}_{p}=\mathbf{0}$ has only the trivial solution, $c_{1}=\cdots=c_{p}=0$.
+linearly independent (vectors): An indexed set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ with the property that the vector equation $c_{1} \mathbf{v}\_{1}+$ $c_{2} \mathbf{v}\_{2}+\cdots+c_{p} \mathbf{v}\_{p}=\mathbf{0}$ has only the trivial solution, $c_{1}=\cdots=c_{p}=0$.
 
 linear model (in statistics): Any equation of the form $\mathbf{y}=X \boldsymbol{\beta}+\boldsymbol{\epsilon}$, where $X$ and $\mathbf{y}$ are known and $\boldsymbol{\beta}$ is to be chosen to minimize the length of the residual vector, $\epsilon$.
 
@@ -380,7 +380,7 @@ main diagonal (of a matrix): The entries with equal row and column indices.
 
 mapping: See transformation.
 
-Markov chain: A sequence of probability vectors $\mathbf{x}_{0}, \mathbf{x}_{1}$, $\mathbf{x}_{2}, \ldots$, together with a stochastic matrix $P$ such that $\mathbf{x}_{k+1}=P \mathbf{x}_{k}$ for $k=0,1,2, \ldots$
+Markov chain: A sequence of probability vectors $\mathbf{x}\_{0}, \mathbf{x}\_{1}$, $\mathbf{x}\_{2}, \ldots$, together with a stochastic matrix $P$ such that $\mathbf{x}\_{k+1}=P \mathbf{x}\_{k}$ for $k=0,1,2, \ldots$
 
 matrix: A rectangular array of numbers.
 
@@ -452,13 +452,13 @@ orthogonal basis: A basis that is also an orthogonal set.
 
 orthogonal complement ( of $W$ ): The set $W^{\perp}$ of all vectors orthogonal to $W$.
 
-orthogonal decomposition: The representation of a vector $\mathbf{y}$ as the sum of two vectors, one in a specified subspace $W$ and the other in $W^{\perp}$. In general, a decomposition $\mathbf{y}=c_{1} \mathbf{u}_{1}+\cdots+c_{p} \mathbf{u}_{p}$, where $\left\{\mathbf{u}_{1}, \ldots, \mathbf{u}_{p}\right\}$ is an orthogonal basis for a subspace that contains $\mathbf{y}$.
+orthogonal decomposition: The representation of a vector $\mathbf{y}$ as the sum of two vectors, one in a specified subspace $W$ and the other in $W^{\perp}$. In general, a decomposition $\mathbf{y}=c_{1} \mathbf{u}\_{1}+\cdots+c_{p} \mathbf{u}\_{p}$, where $\left\{\mathbf{u}\_{1}, \ldots, \mathbf{u}\_{p}\right\}$ is an orthogonal basis for a subspace that contains $\mathbf{y}$.
 
 orthogonally diagonalizable (matrix): A matrix $A$ that admits a factorization, $A=P D P^{-1}$, with $P$ an orthogonal matrix $\left(P^{-1}=P^{T}\right)$ and $D$ diagonal.
 
 orthogonal matrix: A square invertible matrix $U$ such that $U^{-1}=U^{T}$
 
-orthogonal projection of $\mathbf{y}$ onto $\mathbf{u}$ (or onto the line through $\mathbf{u}$ and the origin, for $\mathbf{u} \neq \mathbf{0}$ ): The vector $\hat{\mathbf{y}}$ defined by $\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}$. orthogonal projection of y onto $W$ : The unique vector $\hat{\mathbf{y}}$ in $W$ such that $\mathbf{y}-\hat{\mathbf{y}}$ is orthogonal to $W$. Notation: $\hat{\mathbf{y}}=\operatorname{proj}_{W} \mathbf{y}$.
+orthogonal projection of $\mathbf{y}$ onto $\mathbf{u}$ (or onto the line through $\mathbf{u}$ and the origin, for $\mathbf{u} \neq \mathbf{0}$ ): The vector $\hat{\mathbf{y}}$ defined by $\hat{\mathbf{y}}=\frac{\mathbf{y} \cdot \mathbf{u}}{\mathbf{u} \cdot \mathbf{u}} \mathbf{u}$. orthogonal projection of y onto $W$ : The unique vector $\hat{\mathbf{y}}$ in $W$ such that $\mathbf{y}-\hat{\mathbf{y}}$ is orthogonal to $W$. Notation: $\hat{\mathbf{y}}=\operatorname{proj}\_{W} \mathbf{y}$.
 
 orthogonal set: A set $S$ of vectors such that $\mathbf{u} \cdot \mathbf{v}=0$ for each distinct pair $\mathbf{u}, \mathbf{v}$ in $S$.
 
@@ -502,7 +502,7 @@ polyhedron: A polytope in $\mathbb{R}^{3}$.
 
 polytope: The convex hull of a finite set of points in $\mathbb{R}^{n}$ (a special type of compact convex set).
 
-positive combination (of points $\mathbf{v}_{1}, \ldots, \mathbf{v}_{m}$ in $\mathbb{R}^{n}$ ): A linear combination $c_{1} \mathbf{v}_{1}+\cdots+c_{m} \mathbf{v}_{m}$, where all $c_{i} \geq 0$.
+positive combination (of points $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{m}$ in $\mathbb{R}^{n}$ ): A linear combination $c_{1} \mathbf{v}\_{1}+\cdots+c_{m} \mathbf{v}\_{m}$, where all $c_{i} \geq 0$.
 
 positive definite matrix: A symmetric matrix $A$ such that $\mathbf{x}^{T} A \mathbf{x}>0$ for all $\mathbf{x} \neq \mathbf{0}$.
 
@@ -538,7 +538,7 @@ pseudoinverse ( of $A$ ): The matrix $V D^{-1} U^{T}$, when $U D V^{T}$ is a red
 
 QR factorization: A factorization of an $m \times n$ matrix $A$ with linearly independent columns, $A=Q R$, where $Q$ is an $m \times n$ matrix whose columns form an orthonormal basis for $\operatorname{Col} A$, and $R$ is an $n \times n$ upper triangular invertible matrix with positive entries on its diagonal.
 
-quadratic Bézier curve: A curve whose description may be written in the form $\mathbf{g}(t)=(1-t) \mathbf{f}_{0}(t)+t \mathbf{f}_{1}(t)$ for $0 \leq t \leq$ 1 , where $\mathbf{f}_{0}(t)=(1-t) \mathbf{p}_{0}+t \mathbf{p}_{1}$ and $\mathbf{f}_{1}(t)=(1-t) \mathbf{p}_{1}+$ $t \mathbf{p}_{2}$. The points $\mathbf{p}_{0}, \mathbf{p}_{1}, \mathbf{p}_{2}$ are called the control points for the curve.
+quadratic Bézier curve: A curve whose description may be written in the form $\mathbf{g}(t)=(1-t) \mathbf{f}\_{0}(t)+t \mathbf{f}\_{1}(t)$ for $0 \leq t \leq$ 1 , where $\mathbf{f}\_{0}(t)=(1-t) \mathbf{p}\_{0}+t \mathbf{p}\_{1}$ and $\mathbf{f}\_{1}(t)=(1-t) \mathbf{p}\_{1}+$ $t \mathbf{p}\_{2}$. The points $\mathbf{p}\_{0}, \mathbf{p}\_{1}, \mathbf{p}\_{2}$ are called the control points for the curve.
 
 quadratic form: A function $Q$ defined for $\mathbf{x}$ in $\mathbb{R}^{n}$ by $Q(\mathbf{x})=$ $\mathbf{x}^{T} A \mathbf{x}$, where $A$ is an $n \times n$ symmetric matrix (called the matrix of the quadratic form).
 
@@ -596,7 +596,7 @@ saddle point (of a dynamical system in $\mathbb{R}^{2}$ ): The origin when some 
 
 same direction (as a vector $\mathbf{v}$ ): A vector that is a positive multiple of $\mathbf{v}$.
 
-sample mean: The average $M$ of a set of vectors, $\mathbf{X}_{1}, \ldots, \mathbf{X}_{N}$, given by $M=(1 / N)\left(\mathbf{X}_{1}+\cdots+\mathbf{X}_{N}\right)$.
+sample mean: The average $M$ of a set of vectors, $\mathbf{X}\_{1}, \ldots, \mathbf{X}\_{N}$, given by $M=(1 / N)\left(\mathbf{X}\_{1}+\cdots+\mathbf{X}\_{N}\right)$.
 
 scalar: A (real) number used to multiply either a vector or a matrix.
 
@@ -608,7 +608,7 @@ Schur complement: A certain matrix formed from the blocks of a $2 \times 2$ part
 
 Schur factorization (of $A$, for real scalars): A factorization $A=U R U^{T}$ of an $n \times n$ matrix $A$ having $n$ real eigenvalues, where $U$ is an $n \times n$ orthogonal matrix and $R$ is an upper triangular matrix.
 
-set spanned by $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{\boldsymbol{p}}\right\}$ : The set $\operatorname{Span}\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$.
+set spanned by $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{\boldsymbol{p}}\right\}$ : The set $\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
 
 signal (or discrete-time signal): A doubly infinite sequence of numbers, $\left\{y_{k}\right\}$; a function defined on the integers; belongs to the vector space $\mathbb{S}$.
 
@@ -630,29 +630,29 @@ solution (of a linear system involving variables $x_{1}, \ldots, x_{n}$ ): A lis
 
 solution set: The set of all possible solutions of a linear system. The solution set is empty when the linear system is inconsistent.
 
-$\operatorname{Span}\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{\boldsymbol{p}}\right\}$ : The set of all linear combinations of $\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}$. Also, the subspace spanned (or generated) by $\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}$.
+$\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{\boldsymbol{p}}\right\}$ : The set of all linear combinations of $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}$. Also, the subspace spanned (or generated) by $\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}$.
 
-spanning set (for a subspace $H$ ): Any set $\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$ in $H$ such that $H=\operatorname{Span}\left\{\mathbf{v}_{1}, \ldots, \mathbf{v}_{p}\right\}$.
+spanning set (for a subspace $H$ ): Any set $\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$ in $H$ such that $H=\operatorname{Span}\left\{\mathbf{v}\_{1}, \ldots, \mathbf{v}\_{p}\right\}$.
 
 spectral decomposition (of $A$ ): A representation
 
 $$
-A=\lambda_{1} \mathbf{u}_{1} \mathbf{u}_{1}^{T}+\cdots+\lambda_{n} \mathbf{u}_{n} \mathbf{u}_{n}^{T}
+A=\lambda_{1} \mathbf{u}\_{1} \mathbf{u}\_{1}^{T}+\cdots+\lambda_{n} \mathbf{u}\_{n} \mathbf{u}\_{n}^{T}
 $$
 
-where $\left\{\mathbf{u}_{1}, \ldots, \mathbf{u}_{n}\right\}$ is an orthonormal basis of eigenvectors of $A$, and $\lambda_{1}, \ldots, \lambda_{n}$ are the corresponding eigenvalues of $A$.
+where $\left\{\mathbf{u}\_{1}, \ldots, \mathbf{u}\_{n}\right\}$ is an orthonormal basis of eigenvectors of $A$, and $\lambda_{1}, \ldots, \lambda_{n}$ are the corresponding eigenvalues of $A$.
 
 spiral point (of a dynamical system in $\mathbb{R}^{2}$ ): The origin when the trajectories spiral about $\mathbf{0}$.
 
-stage-matrix model: A difference equation $\mathbf{x}_{k+1}=A \mathbf{x}_{k}$ where $\mathbf{x}_{k}$ lists the number of females in a population at time $k$, with the females classified by various stages of development (such as juvenile, subadult, and adult).
+stage-matrix model: A difference equation $\mathbf{x}\_{k+1}=A \mathbf{x}\_{k}$ where $\mathbf{x}\_{k}$ lists the number of females in a population at time $k$, with the females classified by various stages of development (such as juvenile, subadult, and adult).
 
-standard basis: The basis $\mathcal{E}=\left\{\mathbf{e}_{1}, \ldots, \mathbf{e}_{n}\right\}$ for $\mathbb{R}^{n}$ consisting of the columns of the $n \times n$ identity matrix, or the basis $\left\{1, t, \ldots, t^{n}\right\}$ for $\mathbb{P}_{n}$.
+standard basis: The basis $\mathcal{E}=\left\{\mathbf{e}\_{1}, \ldots, \mathbf{e}\_{n}\right\}$ for $\mathbb{R}^{n}$ consisting of the columns of the $n \times n$ identity matrix, or the basis $\left\{1, t, \ldots, t^{n}\right\}$ for $\mathbb{P}\_{n}$.
 
 standard matrix (for a linear transformation $T$ ): The matrix $A$ such that $T(\mathbf{x})=A \mathbf{x}$ for all $\mathbf{x}$ in the domain of $T$.
 
 standard position: The position of the graph of an equation $\mathbf{x}^{T} A \mathbf{x}=c$, when $A$ is a diagonal matrix.
 
-state vector: A probability vector. In general, a vector that describes the "state" of a physical system, often in connection with a difference equation $\mathbf{x}_{k+1}=A \mathbf{x}_{k}$.
+state vector: A probability vector. In general, a vector that describes the "state" of a physical system, often in connection with a difference equation $\mathbf{x}\_{k+1}=A \mathbf{x}\_{k}$.
 
 steady-state vector (for a stochastic matrix $P$ ): A probability vector $\mathbf{q}$ such that $P \mathbf{q}=\mathbf{q}$.
 
@@ -676,7 +676,7 @@ total variance: The trace of the covariance matrix $S$ of a matrix of observatio
 
 trace (of a square matrix $A$ ): The sum of the diagonal entries in $A$, denoted by $\operatorname{tr} A$.
 
-trajectory: The graph of a solution $\left\{\mathbf{x}_{0}, \mathbf{x}_{1}, \mathbf{x}_{2}, \ldots\right\}$ of a dynamical system $\mathbf{x}_{k+1}=A \mathbf{x}_{k}$, often connected by a thin curve to make the trajectory easier to see. Also, the graph of $\mathbf{x}(t)$ for $t \geq 0$, when $\mathbf{x}(t)$ is a solution of a differential equation $\mathbf{x}^{\prime}(t)=A \mathbf{x}(t)$
+trajectory: The graph of a solution $\left\{\mathbf{x}\_{0}, \mathbf{x}\_{1}, \mathbf{x}\_{2}, \ldots\right\}$ of a dynamical system $\mathbf{x}\_{k+1}=A \mathbf{x}\_{k}$, often connected by a thin curve to make the trajectory easier to see. Also, the graph of $\mathbf{x}(t)$ for $t \geq 0$, when $\mathbf{x}(t)$ is a solution of a differential equation $\mathbf{x}^{\prime}(t)=A \mathbf{x}(t)$
 
 transfer matrix: A matrix $A$ associated with an electrical circuit having input and output terminals, such that the output vector is $A$ times the input vector.
 
