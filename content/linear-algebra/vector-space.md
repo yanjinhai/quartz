@@ -1,5 +1,5 @@
 ---
-title: Vector Spaces
+title: Vector Space
 ---
 
 Hello World!
